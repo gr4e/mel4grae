@@ -67,7 +67,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section accent-background">
 
-      <img src="<?php echo base_url('assets/img/main_bg.jpg'); ?>" alt="" data-aos="fade-in">
+      <img src="<?php echo base_url('assets/img/Main_BG.jpg'); ?>" alt="" data-aos="fade-in">
 
       <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
 
