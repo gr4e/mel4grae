@@ -160,6 +160,20 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Kuya, we are so glad that you have found someone who is always by your side. Ate, welcome to the family thank you for bringing so much happiness to my brothers life. We wish that you would never grow tired of falling in love with each other. May your home be filled with happiness and joy. Congratulations to the both of you!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testi-lai.jpg" class="testimonial-img" alt="">
+                <h3>Gie &amp; Family</h3>
+                <h4>Groom's Sister</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+
+          <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
                   <span>Grae-mar, your hard work and dedication inspire and make me proud of you. you have shown what it means to be committed – not just to your goal, but to the people you love, to your papa, your elder brother and two younger sisters.  Melanie, thank you for being a wonderful partner and bringing out the best of Grae-mar.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
@@ -173,38 +187,12 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Kuya, we are so glad that you have found someone who is always by your side. Ate, welcome to the family thank you for bringing so much happiness to my brothers life. We wish that you would never grow tired of falling in love with each other. May your home be filled with happiness and joy. Congratulations to the both of you!</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testi-lai.jpg" class="testimonial-img" alt="">
-                <h3>Gie &amp; Family</h3>
-                <h4>Groom's Sister</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
                   <span>As they embark on this new chapter, I have no doubt they will continue to grow together, building a life full of love, adventure, and more laughter. Sitmate and Lanie, may your love deepen with every passing day, and may you always find joy in each other’s company.❤️</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testi-dea.jpg" class="testimonial-img" alt="">
                 <h3>Dea Angela</h3>
                 <h4>Groom's Best Friend</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>may all your heart's wishes be granted and may this beautiful journey be filled with soo much love, peace and happiness, here's too many happy years together! 🩷</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testi-aleil.jpg" class="testimonial-img" alt="">
-                <h3>Aleil</h3>
-                <h4>Bride's Friend</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -270,6 +258,19 @@
                 <img src="assets/img/testimonials/testi-mai.jpg" class="testimonial-img" alt="">
                 <h3>Margie &amp; Family</h3>
                 <h4>Groom's Sister</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>may all your heart's wishes be granted and may this beautiful journey be filled with soo much love, peace and happiness, here's too many happy years together! 🩷</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testi-aleil.jpg" class="testimonial-img" alt="">
+                <h3>Aleil</h3>
+                <h4>Bride's Friend</h4>
               </div>
             </div><!-- End testimonial item -->
 
