@@ -53,8 +53,8 @@
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#entourage">Entourage</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#team">Godparents</a></li>
-          <li><a href="#contact">RSVP</a></li>
+          <li><a href="#godparents">Godparents</a></li>
+          <li><a href="#rsvp">RSVP</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -91,6 +91,26 @@
       </div><!-- End Section Title -->
         <div class="row gy-5">
 
+          <div class="col-lg-6">
+            <h2 style="text-align: center;"> Kervi B. Pascual</h2>
+            <h4 style="text-align: center;">Best Man</h4>
+          </div>
+
+          <div class="col-lg-6">
+            <h2 style="text-align: center;"> Mariel F. Valentin</h2>
+            <h4 style="text-align: center;">Maid of Honor</h4>
+          </div>
+
+
+          <div class="col-lg-6">
+            <h3 style="text-align: center;">Groomsmen</h3>          
+          
+          </div>
+
+          <div class="col-lg-6">
+            <h3 style="text-align: center;">Bridesmaid</h3>          
+          
+          </div>
 
 
         </div>
@@ -179,7 +199,7 @@
                 </p>
                 <img src="assets/img/testimonials/testi-grace2.jpg" class="testimonial-img" alt="">
                 <h3>Marlon &amp; Grace</h3>
-                <h4>Groom's Father &amp; Mother</h4>
+                <h4>Groom's Parents</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -200,7 +220,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>This new road you will be both taking will not always a straight line. There will be misunderstanding, struggles and obstacles along the way. Remember to always communicate and face it together, Marraige is not that easy, but together it will be much lighter and easier. Lots of love and care.🩷 </span>
+                  <span>This new road you will be both taking will not always a straight line. There will be misunderstanding, struggles and obstacles along the way. Remember to always communicate and face it together, Marriage is not that easy, but together it will be much lighter and easier. Lots of love and care.🩷 </span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testi-monetcindy.jpg" class="testimonial-img" alt="">
@@ -213,12 +233,25 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Even though life is full of struggles, it is what strengthens the bond of the couples. And as you both take the next step that life offers, may it mold your relationship’s foundation into something far beyond just unification. Cheers for you my brother and welcome to the family lanie 🥂</span>
+                  <span>Even though life is full of struggles, it is what strengthens the bond of the couples. And as you both take the next step that life offers, may it mold your relationship’s foundation into something far beyond just unification. Cheers for you my brother and welcome to the family Lanie 🥂</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testi-edi.jpg" class="testimonial-img" alt="">
                 <h3>Eigram &amp; Family</h3>
                 <h4>Groom's Brother</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>In a world full of trials, you two were brought together. I thought at first that you two wouldn’t last long, but as the years passed, as time passed, as problems came, we saw and witnessed how you two overcame everything. I hope nothing changes in your love for each other, and I hope in God’s perfect time, your mini-me will also arrive. I wish you both a lifetime of happiness together.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testi-janine.jpg" class="testimonial-img" alt="">
+                <h3>Janine</h3>
+                <h4>Bride's Friend</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -265,12 +298,51 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>may all your heart's wishes be granted and may this beautiful journey be filled with soo much love, peace and happiness, here's too many happy years together! 🩷</span>
+                  <span>To Lanie and Grae Congratulations on your special day. Wishing you a happily ever after. To Lanie, if you need a friend we will always be here palagi. Best wishes sa inyong dalawa. Humayo kayo at magpakarami.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testi-ningkoy.jpg" class="testimonial-img" alt="">
+                <h3>Alreen</h3>
+                <h4>Bride's Friend</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>To Grae & Mel, continue and nurture what you’ve started as a couple. And let be our creator the center of your relationship. And finally, we are on the same status already!😂 #statusMarried. May the true love you share today grow stronger as you grow old together. Congratulations and we love you mate!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testi-bj.jpg" class="testimonial-img" alt="">
+                <h3>Benedict &amp; Family</h3>
+                <h4>Couples's Friends</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>May all your heart's wishes be granted and may this beautiful journey be filled with soo much love, peace and happiness, here's to many happy years together! 🩷</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testi-aleil.jpg" class="testimonial-img" alt="">
                 <h3>Aleil</h3>
                 <h4>Bride's Friend</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>To the soon-to-be husband and wife, it feels like just yesterday we were all navigating college life together, filled with dreams and uncertainties. Seeing the two of you grow individually and now as a couple has been such an honor. Your love for each other is a true testament to the strength and joy of a shared journey. We're beyond excited to witness this next chapter of your lives and can’t wait to see all the beautiful memories you’ll continue to create together. Wishing you both endless love, laughter, and happiness!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testi-jayme.jpg" class="testimonial-img" alt="">
+                <h3>Jayme &amp; Family</h3>
+                <h4>Couples's Friends</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -283,7 +355,7 @@
     </section><!-- /Testimonials Section -->
 
     <!-- Team Section -->
-    <section id="team" class="team section">
+    <section id="godparents" class="team section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -324,7 +396,7 @@
                 <img src="assets/img/team/gp-remy.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>Remy Buenaventura</h4>
+                <h4>Remedios L. Buenaventura</h4>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -335,7 +407,51 @@
                 <img src="assets/img/team/gp-tony.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>Antonio Buenaventura Sr.</h4>
+                <h4>Antonio L. Buenaventura Sr.</h4>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/gp-lolita.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Lolita D. Mascardo</h4>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/gp-.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Norman L. Buenaventura</h4>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/gp-.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Romeo Budollo</h4>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/gp-vita.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Jovita Inocencio Camia</h4>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -348,7 +464,7 @@
     </section><!-- /Team Section -->
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <section id="rsvp" class="contact section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -371,12 +487,12 @@
 
                 <div class="col-md-12">
                   <label for="email-field" class="pb-2">Contact Number</label>
-                  <input type="text" class="form-control" name="contact" id="contact-field" maxlength="11" value="09" required="">
+                  <input type="text" class="form-control" name="contact" id="contact-field" maxlength="11" required="">
                 </div>
 
                 <div class="col-md-12">
                   <label for="message-field" class="pb-2">Short message for the couple</label>
-                  <textarea class="form-control" name="message" rows="5" id="message-field"></textarea>
+                  <textarea class="form-control" name="message" rows="5" id="message-field" placeholder="Your message is optional, but we would greatly appreciate it if you’re able to share one."></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
