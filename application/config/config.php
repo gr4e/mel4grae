@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-// $config['base_url'] = 'http://localhost/mel4grae';
-$config['base_url'] = 'http://13.213.161.20/mel4grae';
+// $config['base_url'] = 'http://192.168.1.3/mel4grae';
+$config['base_url'] = 'http://13.213.161.20';
 
 /*
 |--------------------------------------------------------------------------

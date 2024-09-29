@@ -211,28 +211,3 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
-
-
-
-function restrictInput(event) {
-  const inputField = document.getElementById('contact-field');
-  const value = inputField.value;
-
-  // Allow only numbers and limit to 11 characters
-  if (!/^\d*$/.test(event.key) || value.length >= 11) {
-      event.preventDefault();
-  }
-}
-
-function limitLength() {
-  const inputField = document.getElementById('contact-field');
-  if (inputField.value.length > 11) {
-      inputField.value = inputField.value.slice(0, 11);
-  }
-}
-
-window.onload = function() {
-  const inputField = document.getElementById('contact-field');
-  inputField.addEventListener('keypress', restrictInput);
-  inputField.addEventListener('input', limitLength);
-};

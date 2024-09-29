@@ -45,7 +45,8 @@
       <a href="<?php echo base_url(); ?>" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Mel4Grae</h1>
+        <img src="<?php echo base_url('assets/img/Header-logo.png'); ?>" alt="" >
+        
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -69,52 +70,100 @@
 
       <img src="<?php echo base_url('assets/img/mainbg.jpg'); ?>" alt="" data-aos="fade-in">
 
-      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+      <div class="container text-center main_container" data-aos="fade-up" data-aos-delay="100">
 
        <!-- should be on mobile version style="margin-top: 75%" -->
 
-        <p style="font-family: 'poppins'; font-weight: 700; text-shadow: 10px 10px 15px rgba(18, 14, 12, 0.5);">You are cordially invited to the wedding of</p>
-        <h2 style="font-family: 'poppins'; font-weight:700; text-shadow: 10px 10px 15px rgba(18, 14, 12, 0.5);">Grae-mar & Melanie</h2>
-        <a href="#entourage" class="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
+       <div class="main_invite_block">
+          <p class="main_you" style="font-family: 'poppins'; font-weight: 700; text-shadow: 10px 10px 15px rgba(18, 14, 12, 0.5);">You are</p>
+          <h2 class="main_invite" style="font-family: 'poppins'; font-weight: 700; text-shadow: 10px 10px 15px rgba(18, 14, 12, 0.5);"> CORDIALLY INVITED</h2>
+          <p style="font-family: 'poppins'; font-weight: 700; text-shadow: 10px 10px 15px rgba(18, 14, 12, 0.5);">to the wedding of</p>
+        </div>
+        <div class="main_name_block">
+          <h1 class="main_name" style="font-family: 'poppins'; font-weight:700; text-shadow: 10px 10px 15px rgba(18, 14, 12, 0.5); font-size: 6em;">GRAE & LANIE</h1>
+          <p style="font-family: 'poppins'; font-weight: 700; text-shadow: 10px 10px 15px rgba(18, 14, 12, 0.5);" class="main_date">October 12, 2024</p>
+          <a href="#entourage" class="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
+        </div>
+
       </div>
 
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
     <section id="entourage" class="about section">
+    
+    <!-- <img src="assets/img/cta-bg.jpg" alt=""> -->
 
       <div class="container">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Our Entourage</h2>
+        <h2 style="background: url(<?= base_url('assets/img/section-title-Our-Entourage.png'); ?>) no-repeat center;">Our Entourage</h2>
         <p>Our cherished family and friends, the pillars of our love and joy.</p>
       </div><!-- End Section Title -->
         <div class="row gy-5">
 
-          <div class="col-lg-6">
-            <h2 style="text-align: center;"> Kervi B. Pascual</h2>
-            <h4 style="text-align: center;">Best Man</h4>
-          </div>
+            <div class="col-md-6">
+              <h5 style="text-align: center;">Best Man</h5>
+              <h3 style="text-align: center;"> Kervi B. Pascual</h3>
+            </div>
 
-          <div class="col-lg-6">
-            <h2 style="text-align: center;"> Mariel F. Valentin</h2>
-            <h4 style="text-align: center;">Maid of Honor</h4>
-          </div>
-
-
-          <div class="col-lg-6">
-            <h3 style="text-align: center;">Groomsmen</h3>          
-          
-          </div>
-
-          <div class="col-lg-6">
-            <h3 style="text-align: center;">Bridesmaid</h3>          
-          
-          </div>
+            <div class="col-md-6">
+              <h5 style="text-align: center;">Maid of Honor</h5>
+              <h3 style="text-align: center;"> Mariel F. Valentin</h3>
+            </div>
 
 
+            <div class="col-lg-6">
+              <h4 style="text-align: center;">Groomsmen</h4>
+              <hr style="margin: 10px auto;" />        
+              <h5 style="text-align: center;">Kevin Ray Bautista</h5>     
+              <h5 style="text-align: center;">Darriel Santos</h5>   
+              <h5 style="text-align: center;">Jayme Barranco</h5>
+              <h5 style="text-align: center;">Jan Carl Dampil</h5>
+              <h5 style="text-align: center;">Morelle Pirante</h5>
+              <h5 style="text-align: center;">Sean Terrence Calzada</h5>
+              
+            </div>
+
+            <div class="col-lg-6">
+              <h4 style="text-align: center;">Bridesmaid</h4>          
+              <hr style="margin: 10px auto;" /> 
+              <h5 style="text-align: center;">Gie Buenaventura</h5> 
+              <h5 style="text-align: center;">Leah Cabreara</h5> 
+              <h5 style="text-align: center;">Cherrie Barranco</h5> 
+              <h5 style="text-align: center;">Trixie Diane Bautista</h5>
+              <h5 style="text-align: center;">Justine Mangayabas</h5>
+              <h5 style="text-align: center;">Marionne Buenaventura</h5>
+            </div>
+       
+            <div class="col-md-6" style="margin: 2vh auto;">
+              <hr /> 
+            </div>
+
+            <div class="col-lg-12" style="margin: 0;">
+              <h5 style="text-align: center;">Ring Bearer</h5>          
+              <h4 style="text-align: center;">Ethan Zane Dollano</h4> 
+            </div>
+
+            <div class="col-lg-12">
+              <h5 style="text-align: center;">Bible Bearer</h5>          
+              <h4 style="text-align: center;">James Estor</h4> 
+            </div>
+
+            <div class="col-lg-12">
+              <h5 style="text-align: center;">Flower Girl</h5>          
+              <h4 style="text-align: center;">Justine Anastasia Villaroman</h4> 
+            </div>
+
+
+            <div class="col-lg-12">
+              <h5 style="text-align: center;">Flower Girl</h5>          
+              <h4 style="text-align: center;">Josette Elianna Buenaventura</h4> 
+            </div>
+
+
+            
         </div>
-
       </div>
 
     </section><!-- /About Section -->
@@ -129,7 +178,7 @@
           <div class="col-xl-10">
             <div class="text-center">
               <p>Come and join us as we celebrate the beginning of our forever. Together with our families, we invite you to share in the joy of our wedding day as we exchange vows and embark on a lifetime of love and happiness.</p>
-              <a class="cta-btn" href="#contact">RSVP</a>
+              <a class="cta-btn" href="#rsvp">RSVP</a>
             </div>
           </div>
         </div>
@@ -142,7 +191,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Love Notes</h2>
+        <h2 style="background: url(<?= base_url('assets/img/section-title-love-notes.png'); ?>) no-repeat center;">Love Notes</h2>
         <p>Heartfelt messages from our loving family and friends</p>
       </div><!-- End Section Title -->
 
@@ -178,173 +227,218 @@
 
           <div class="swiper-slide">
               <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-lai.jpg" class="testimonial-img" alt="">
+                <h3>Gie &amp; Family</h3>
+                <h4>Groom's Sister</h4>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>Kuya, we are so glad that you have found someone who is always by your side. Ate, welcome to the family thank you for bringing so much happiness to my brothers life. We wish that you would never grow tired of falling in love with each other. May your home be filled with happiness and joy. Congratulations to the both of you!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testi-lai.jpg" class="testimonial-img" alt="">
-                <h3>Gie &amp; Family</h3>
-                <h4>Groom's Sister</h4>
               </div>
             </div><!-- End testimonial item -->
 
 
           <div class="swiper-slide">
               <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-grace2.jpg" class="testimonial-img" alt="">
+                <h3>Marlon &amp; Grace</h3>
+                <h4>Groom's Parents</h4>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>Grae-mar, your hard work and dedication inspire and make me proud of you. you have shown what it means to be committed – not just to your goal, but to the people you love, to your papa, your elder brother and two younger sisters.  Melanie, thank you for being a wonderful partner and bringing out the best of Grae-mar.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testi-grace2.jpg" class="testimonial-img" alt="">
-                <h3>Marlon &amp; Grace</h3>
-                <h4>Groom's Parents</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-dea.jpg" class="testimonial-img" alt="">
+                <h3>Dea Angela</h3>
+                <h4>Groom's Best Friend</h4>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>As they embark on this new chapter, I have no doubt they will continue to grow together, building a life full of love, adventure, and more laughter. Sitmate and Lanie, may your love deepen with every passing day, and may you always find joy in each other’s company.❤️</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testi-dea.jpg" class="testimonial-img" alt="">
-                <h3>Dea Angela</h3>
-                <h4>Groom's Best Friend</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-monetcindy.jpg" class="testimonial-img" alt="">
+                <h3>Monetters &amp; Cindy</h3>
+                <h4>Bride's Friends</h4>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>This new road you will be both taking will not always a straight line. There will be misunderstanding, struggles and obstacles along the way. Remember to always communicate and face it together, Marriage is not that easy, but together it will be much lighter and easier. Lots of love and care.🩷 </span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testi-monetcindy.jpg" class="testimonial-img" alt="">
-                <h3>Monetters &amp; Cindy</h3>
-                <h4>Bride's Friends</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-edi.jpg" class="testimonial-img" alt="">
+                <h3>Eigram &amp; Family</h3>
+                <h4>Groom's Brother</h4>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>Even though life is full of struggles, it is what strengthens the bond of the couples. And as you both take the next step that life offers, may it mold your relationship’s foundation into something far beyond just unification. Cheers for you my brother and welcome to the family Lanie 🥂</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testi-edi.jpg" class="testimonial-img" alt="">
-                <h3>Eigram &amp; Family</h3>
-                <h4>Groom's Brother</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-janine.jpg" class="testimonial-img" alt="">
+                <h3>Janine</h3>
+                <h4>Bride's Friend</h4>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>In a world full of trials, you two were brought together. I thought at first that you two wouldn’t last long, but as the years passed, as time passed, as problems came, we saw and witnessed how you two overcame everything. I hope nothing changes in your love for each other, and I hope in God’s perfect time, your mini-me will also arrive. I wish you both a lifetime of happiness together.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testi-janine.jpg" class="testimonial-img" alt="">
-                <h3>Janine</h3>
-                <h4>Bride's Friend</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-boni.jpg" class="testimonial-img" alt="">
+                <h3>Ronalyn</h3>
+                <h4>Bride's Friend</h4>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>I don't believe in love, but witnessing yours. I do now!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testi-boni.jpg" class="testimonial-img" alt="">
-                <h3>Ronalyn</h3>
-                <h4>Bride's Friend</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-diane.jpg" class="testimonial-img" alt="">
+                <h3>Angelo &amp; Diane</h3>
+                <h4>Couple's Friends</h4>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>To Grae and Ate Lanie, finally, a new chapter in your relationship begins for you both and one of the best things we look forward to. We are so happy and excited to see you two tie the knot. Please know that we value your happiness together above all else. Congratulations and wishing you the best-today and always. 🩷</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testi-diane.jpg" class="testimonial-img" alt="">
-                <h3>Angelo &amp; Diane</h3>
-                <h4>Couple's Friends</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-mai.jpg" class="testimonial-img" alt="">
+                <h3>Margie &amp; Family</h3>
+                <h4>Groom's Sister</h4>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>My brother and soon-to-be sister-in-law have a special connection that brings so much joy to our family. Their love is genuine and uplifting. We’re thrilled to celebrate their journey together and all the wonderful moments to come!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testi-mai.jpg" class="testimonial-img" alt="">
-                <h3>Margie &amp; Family</h3>
-                <h4>Groom's Sister</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-ningkoy.jpg" class="testimonial-img" alt="">
+                <h3>Alreen</h3>
+                <h4>Bride's Friend</h4>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>To Lanie and Grae Congratulations on your special day. Wishing you a happily ever after. To Lanie, if you need a friend we will always be here palagi. Best wishes sa inyong dalawa. Humayo kayo at magpakarami.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testi-ningkoy.jpg" class="testimonial-img" alt="">
-                <h3>Alreen</h3>
-                <h4>Bride's Friend</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-bj.jpg" class="testimonial-img" alt="">
+                <h3>Benedict &amp; Family</h3>
+                <h4>Couples's Friends</h4>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>To Grae & Mel, continue and nurture what you’ve started as a couple. And let be our creator the center of your relationship. And finally, we are on the same status already!😂 #statusMarried. May the true love you share today grow stronger as you grow old together. Congratulations and we love you mate!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testi-bj.jpg" class="testimonial-img" alt="">
-                <h3>Benedict &amp; Family</h3>
-                <h4>Couples's Friends</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-aleil.jpg" class="testimonial-img" alt="">
+                <h3>Aleil</h3>
+                <h4>Bride's Friend</h4>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>May all your heart's wishes be granted and may this beautiful journey be filled with soo much love, peace and happiness, here's to many happy years together! 🩷</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testi-aleil.jpg" class="testimonial-img" alt="">
-                <h3>Aleil</h3>
-                <h4>Bride's Friend</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-toti.jpg" class="testimonial-img" alt="">
+                <h3>John Mark</h3>
+                <h4>Brides's Friend</h4>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>To the soon-to-be husband and wife, it feels like just yesterday we were all navigating college life together, filled with dreams and uncertainties. Seeing the two of you grow individually and now as a couple has been such an honor. Your love for each other is a true testament to the strength and joy of a shared journey. We're beyond excited to witness this next chapter of your lives and can’t wait to see all the beautiful memories you’ll continue to create together. Wishing you both endless love, laughter, and happiness!</span>
+                  <span>I am truly grateful to have been a part of your beautiful wedding day. Witnessing the love and joy you both share was an unforgettable experience. Your commitment to each other is inspiring, and it was heartwarming to see how surrounded you were by family and friends who cherish you. Thank you for including me in such a special moment of your lives. I wish you both a lifetime filled with love, happiness, and countless adventures together. Congratulations on your new journey as a married couple!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testi-jayme.jpg" class="testimonial-img" alt="">
-                <h3>Jayme &amp; Family</h3>
-                <h4>Couples's Friends</h4>
               </div>
             </div><!-- End testimonial item -->
+
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-dar.jpg" class="testimonial-img" alt="">
+                <h3>Darriel</h3>
+                <h4>Brides's Friend</h4>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Congratulations Melanie and Grae! May you always laugh together even on the toughest days, and remember that sometimes, the best part of marriage is simply being home with the one you love.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-leah.jpg" class="testimonial-img" alt="">
+                <h3>Leah</h3>
+                <h4>Brides's Best Friend</h4>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>To my friend ate lanie, you are one of a kind..you conquered all odds when it comes to LOVE! Finally, we’re so happy that you’re getting married to the man you love the most. 😊 To Grae, thank you for loving ate Lanie! A very simple girl who loves you very much! Lord says “You both are meant for each other! 😊Congratulations to the both of you! Lots of Love and a lifetime happiness! “❤️</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-mariel.jpg" class="testimonial-img" alt="">
+                <h3>Mariel</h3>
+                <h4>Brides's Best Friend</h4>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Congratulations melanie and Grae, 
+                  Kayo talaga ang tinadhana, I just have one thing to say:  I’m so happy and proud for the both of you and finally you’re getting married na tol! We’re so excited on one of  the biggest day in your life and for more babies coming soon.😊</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+
 
           </div>
           <div class="swiper-pagination"></div>
@@ -359,7 +453,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Godparents</h2>
+        <h2 style="background: url(<?= base_url('assets/img/section-title-godparents.png'); ?>) no-repeat center;">Godparents</h2>
         <p>We are blessed to have our loving Godparents, guiding and supporting us on this special journey.</p>
       </div><!-- End Section Title -->
 
@@ -367,94 +461,100 @@
 
         <div class="row gy-5">
 
-        <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-xl-3 col-md-3 d-flex gp-images" data-aos="zoom-in" data-aos-delay="400">
+              <div class="team-member">
+                <div class="member-img">
+                  <img src="assets/img/team/gp-gina.png" class="img-fluid" alt="">
+                </div>
+                <div class="member-info">
+                  <h6>Maria Regina G. Dee</h6>
+                </div>
+              </div>
+          </div><!-- End Team Member -->
+
+
+          <div class="col-xl-3 col-md-3 d-flex gp-images" data-aos="zoom-in" data-aos-delay="400">
+              <div class="team-member">
+                <div class="member-img">
+                  <img src="assets/img/team/gp-mae.png" class="img-fluid" alt="">
+                </div>
+                <div class="member-info">
+                  <h6>Mary Rose Buenaventura Pascual</h6>
+                </div>
+              </div>
+          </div><!-- End Team Member -->
+
+
+          <div class="col-xl-3 col-md-3 d-flex gp-images" data-aos="zoom-in" data-aos-delay="400">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/gp-gina.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/gp-remy.png" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-
-                <h4>Maria Regina G. Dee</h4>
+                <h6>Remedios L. Buenaventura</h6>
               </div>
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-xl-3 col-md-3 d-flex gp-images" data-aos="zoom-in" data-aos-delay="400">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/gp-mae.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/gp-tony.png" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>Mary Rose Buenaventura Pascual</h4>
+                <h6>Antonio L. Buenaventura Sr.</h6>
               </div>
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+
+          <div class="col-xl-3 col-md-3 d-flex gp-images" data-aos="zoom-in" data-aos-delay="600">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/gp-remy.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/gp-lolita.png" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>Remedios L. Buenaventura</h4>
+                <h6>Lolita D. Mascardo</h6>
               </div>
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+          <div class="col-xl-3 col-md-3 d-flex gp-images" data-aos="zoom-in" data-aos-delay="600">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/gp-tony.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/gp-norman.png" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>Antonio L. Buenaventura Sr.</h4>
+                <h6>Norman L. Buenaventura</h6>
               </div>
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/gp-lolita.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <h4>Lolita D. Mascardo</h4>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/gp-.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <h4>Norman L. Buenaventura</h4>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/gp-.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <h4>Romeo Budollo</h4>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+          <div class="col-xl-3 col-md-3 d-flex gp-images" data-aos="zoom-in" data-aos-delay="400">
             <div class="team-member">
               <div class="member-img">
                 <img src="assets/img/team/gp-vita.png" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>Jovita Inocencio Camia</h4>
+                <h6>Jovita Inocencio Camia</h6>
               </div>
             </div>
           </div><!-- End Team Member -->
+
+
+          <div class="col-xl-3 col-md-3 d-flex gp-images" data-aos="zoom-in" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/gp-romeo.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h6>Romeo Budollo</h6>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+         
 
 
         </div>
@@ -468,8 +568,16 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>RSVP</h2>
+        <h2 style="background: url(<?= base_url('assets/img/section-title-rsvp.png'); ?>) no-repeat center;">RSVP</h2>
         <p>Reserve your seat in our cirlce!</p>
+
+        <div class="motif-block">
+          <h3 style="margin: 0;">FOR THE ENTOURAGE ATTIRE</h3>
+          <h3>WE REQUEST WEARING THESE COLORS FOR OUR SPECIAL DAY</h3>
+          <img src="<?php echo base_url('assets/img/Color-motif.png'); ?>" alt="" data-aos="fade-in">
+          <h5>GUEST MAY WEAR ANY COLOR EXCEPT BLACK OR WHITE</h5>
+        </div>
+        
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -477,30 +585,26 @@
         <div class="row gy-4">
 
         <div class="col-lg-4">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form class="php-email-form" data-aos="fade-up" data-aos-delay="200" id="reserveForm">
               <div class="row gy-4">
 
                 <div class="col-md-12">
                   <label for="name-field" class="pb-2">Full Name</label>
-                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                  <input type="text" name="name" id="name_form" id="name-field" class="form-control" required="">
                 </div>
 
                 <div class="col-md-12">
                   <label for="email-field" class="pb-2">Contact Number</label>
-                  <input type="text" class="form-control" name="contact" id="contact-field" maxlength="11" required="">
+                  <input type="text" class="form-control" id="contact_form" name="contact" id="contact-field" maxlength="11" required="">
                 </div>
 
                 <div class="col-md-12">
                   <label for="message-field" class="pb-2">Short message for the couple</label>
-                  <textarea class="form-control" name="message" rows="5" id="message-field" placeholder="Your message is optional, but we would greatly appreciate it if you’re able to share one."></textarea>
+                  <textarea class="form-control" name="message" id="message_form" rows="10" id="message-field" placeholder="Your message is optional, but we would greatly appreciate it if you’re able to share one."></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit" disabled>Send Message</button>
+                  <button type="submit" id="submitForm">Reserve my Seat!</button>
                 </div>
 
               </div>
@@ -518,6 +622,15 @@
                   <p>St. Vincent Ferrer Church</p>
                 </div>
               </div><!-- End Info Item -->
+              
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-alarm flex-shrink-0"></i>
+                <div>
+                  <h3>Date &amp; Time</h3>
+                  <p>Oct. 12, 2024 -- 2 - 3 PM</p>
+                </div>
+              </div><!-- End Info Item -->
+
 
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
@@ -541,6 +654,14 @@
                 <div>
                   <h3>Venue</h3>
                   <p>Bruno's Restaurant</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-alarm flex-shrink-0"></i>
+                <div>
+                  <h3>Date &amp; Time</h3>
+                  <p>Oct. 12, 2024 -- 3 - 6 PM</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -589,8 +710,60 @@
   <script src="<?php echo base_url() . 'assets/vendor/isotope-layout/isotope.pkgd.min.js'; ?>"></script>
   <script src="<?php echo base_url() . 'assets/vendor/swiper/swiper-bundle.min.js'; ?>"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <!-- Main JS File -->
+  <script src="<?php echo base_url() . 'assets/js/jquery.js'; ?>"></script>
   <script src="<?php echo base_url() . 'assets/js/main.js'; ?>"></script>
+
+  <script>
+
+    $(document).ready(function(){
+    $('#reserveForm').on('submit', function(event) {
+      event.preventDefault(); 
+      
+      console.log($('#name_form').val());
+      console.log($('#contact_form').val());
+      console.log($('#message_form').val());
+      console.log('-----');
+
+      $.ajax({
+        url: "<?= base_url('index.php/reserveseat'); ?>", 
+        type: 'POST',
+        dataType: 'json',
+        data: {
+          name: $('#name_form').val(),
+          contact: $('#contact_form').val(),
+          message: $('#message_form').val(),
+        }, 
+        success: function(response) {
+           Swal.fire({
+            title: 'Confirmed!',
+            text: 'Thank you for your confirmation.',
+            icon: 'success',
+            confirmButtonText: 'Done',
+            timer: 5000, 
+            timerProgressBar: true,
+            didOpen: () => {
+              const confirmButton = Swal.getConfirmButton();
+              confirmButton.style.backgroundColor = '#88b699'; 
+              confirmButton.style.color = 'white';            
+              confirmButton.style.border = 'none';             
+            }
+          });
+          
+          $('#name_form').val('');
+          $('#contact_form').val('');
+          $('#message_form').val('');
+
+        }
+    });
+
+
+
+  });
+});
+
+</script>
 
 </body>
 
