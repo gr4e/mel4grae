@@ -76,9 +76,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'http://13.213.161.20/',
-	'username' => 'dbmasteruser',
-	'password' => 'nyau5boP5DRb651SHOxLH=,?=eM%tH]%',
-	'database' => 'Database-1',
+	'username' => 'root',
+	'password' => 'ToS368lxidB@',
+	'database' => 'mel4grae',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
