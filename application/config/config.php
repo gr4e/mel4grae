@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = 'http://192.168.1.3/mel4grae';
-$config['base_url'] = 'mel4evergraetful/mel4grae';
+$config['base_url'] = 'https://mel4evergraetful/mel4grae';
 // $config['base_url'] = 'http://13.215.182.178/mel4grae';
 
 
