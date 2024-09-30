@@ -7,8 +7,8 @@ class Check extends CI_Controller {
 	{
         $this->load->model('Visitors_model');
 
-        $data['records'] = $this->YourModel->get_all_records(); 
-        
+        $data['records'] = $this->Visitors_model->get_all_records(); 
+
         echo $data;
 
 	}
