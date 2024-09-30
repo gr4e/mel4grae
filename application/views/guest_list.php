@@ -8,9 +8,22 @@
 <body>
 
 <h2>Guest List</h2>
-<pre>
-<?php print_r($bwisita); ?>
-</pre>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name &amp; contact</th>
+            <th>Message</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php 
+            foreach ($bwisita as $v) {
+                echo "<tr><td>".$v->name. " - ".$v->contact."</td><td>".$->message."</td></tr>";
+            }
+        ?>
+    </tbody>    
+</table>
 
 </body>
 </html>
