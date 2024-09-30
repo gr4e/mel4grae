@@ -479,6 +479,23 @@
             </div><!-- End testimonial item -->
 
 
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/gp-gina.jpg" class="testimonial-img" alt="">
+                <h3>Ninang Gina</h3>
+                <h4>Couple's Godparent</h4>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Mga inaanak, I pray Romans 12: 9-10 for you. That your love for each other will always be sincere.  That you'll  hate what is evil and cling to what is good. Grae and Lanie, be devoted to each other in love. Also honor each other above yourself. Live in peace. And whatever you do, whether in word or deed, do it all in the name of the Lord Jesus Christ since HE is a witness to your loving relationship and declared promises. Colossians 3:10 I love you, guys. My prayers. 🙏🙌💖🌟🎉</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+
+
+
+
           </div>
           <div class="swiper-pagination"></div>
         </div>
