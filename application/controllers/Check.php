@@ -9,7 +9,7 @@ class Check extends CI_Controller {
 
         $data['records'] = $this->Visitors_model->get_all_records(); 
 
-        echo $data;
+        $this->load->view('main_view/single_view', $data);
 
 	}
 
