@@ -620,6 +620,10 @@
                   <button type="submit" id="submitForm">Reserve my Seat!</button>
                 </div>
 
+                <div class="col-md-12">
+                <p>To help us get an accurate headcount for our special day, please ensure you enter the name of each guest attending in the RSVP form above. Your cooperation is greatly appreciated!</p>
+                </div>
+
               </div>
             </form>
           </div><!-- End Contact Form -->
