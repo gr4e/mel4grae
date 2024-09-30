@@ -7,10 +7,8 @@ class Check extends CI_Controller {
 	{
         $this->load->model('Visitors_model');
 
-        $this->db->select('*'); // Select all columns
-        $query = $this->db->get('visitors'); // Replace 'your_table_name' with your actual table name
-        $data $query->result(); // Return the result
-
+        $data['records'] = $this->YourModel->get_all_records(); 
+        
         echo $data;
 
 	}

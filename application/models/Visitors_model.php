@@ -11,4 +11,11 @@ class Visitors_model extends CI_Model {
         return $this->db->insert('visitors', $data);  
     }
 
+
+    public function get_all_records() {
+        $this->db->select('*'); 
+        $query = $this->db->get('visitors'); // Replace 'your_table_name' with your actual table name
+        return $query->result(); // Return the result as an array of objects
+    }
+
 }
