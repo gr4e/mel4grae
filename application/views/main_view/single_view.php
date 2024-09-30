@@ -613,7 +613,7 @@
 
                 <div class="col-md-12">
                   <label for="message-field" class="pb-2">Short message for the couple</label>
-                  <textarea class="form-control" name="message" id="message_form" rows="10" id="message-field" placeholder="Your message is optional, but we would greatly appreciate it if you’re able to share one."></textarea>
+                  <textarea class="form-control" name="message" id="message_form" rows="5" id="message-field" placeholder="Your message is optional, but we would greatly appreciate it if you’re able to share one."></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
