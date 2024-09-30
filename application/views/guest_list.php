@@ -28,8 +28,14 @@
 </head>
 <body>
 
-<h2>Guest List</h2>
+    <div class="col-lg-3">
+        <h2>Guest List</h2>
+    </div>
+    <div class="col-lg-9">
+        <h4>Head Count: <?= count($bwisita); ?></h4>
+    </div>
 
+    <div class="col-lg-12">
 <table >
     <thead>
         <tr>
@@ -45,6 +51,6 @@
         ?>
     </tbody>    
 </table>
-
+        </div>
 </body>
 </html>
