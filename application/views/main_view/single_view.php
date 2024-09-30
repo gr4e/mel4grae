@@ -481,7 +481,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/gp-gina.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/gp-gina.png" class="testimonial-img" alt="">
                 <h3>Ninang Gina</h3>
                 <h4>Couple's Godparent</h4>
                 <p>
