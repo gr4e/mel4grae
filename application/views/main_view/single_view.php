@@ -438,6 +438,19 @@
               </div>
             </div><!-- End testimonial item -->
 
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-bea.jpg" class="testimonial-img" alt="">
+                <h3>Kevin &amp; Bea</h3>
+                <h4>Couple's Best Friend</h4>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>It is with great honor, pride, and excitement that we welcome you into the married life. It will not always be sunshines and butterflies, but with you together and God at the center of your relationship, you will be able to make it through everything. Don't forget your vows and live with no regrets. Congratulations to your wedding! 🩷</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
 
 
           </div>
