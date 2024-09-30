@@ -467,7 +467,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testi-kervimel.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testi-reana.jpg" class="testimonial-img" alt="">
                 <h3>Reana</h3>
                 <h4>Couple's Friend</h4>
                 <p>
