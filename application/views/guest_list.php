@@ -6,9 +6,9 @@
     <title>Guest Lists</title>
 </head>
 <body>
-
+<pre>
 <?php print_r($records); ?>
-    
+</pre>
 <h2>Guest List</h2>
 
 <table>
