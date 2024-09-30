@@ -7,9 +7,24 @@
 </head>
 <body>
     
-<pre>
-    <?= $records; ?>
-</pre>
+<h2>Guest List</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name &amp; contact</th>
+            <th>Message</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php 
+            for ($i=0; $i < $records; $i++) { 
+                echo "<tr><td>".$records[$i]['name']."</td></tr>";
+            }
+        
+        ?>
+    </tbody>    
+</table>
 
 </body>
 </html>
