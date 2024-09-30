@@ -6,6 +6,8 @@
     <title>Guest Lists</title>
 </head>
 <body>
+
+<?php print_r($records); ?>
     
 <h2>Guest List</h2>
 
@@ -19,7 +21,7 @@
     <tbody>
         <?php 
             for ($i=0; $i < $records; $i++) { 
-                echo "<tr><td>".$records[$i]['name']."</td></tr>";
+                echo "<tr><td>".$records[$i]->name."</td></tr>";
             }
         
         ?>
