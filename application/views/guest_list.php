@@ -19,7 +19,7 @@
     <tbody>
         <?php 
             foreach ($bwisita as $v) {
-                echo "<tr><td>".$v->name. " - ".$v->contact."</td><td>".$->message."</td></tr>";
+                echo "<tr><td>".$v->name. " - ".$v->contact."</td><td>".$v->message."</td></tr>";
             }
         ?>
     </tbody>    
