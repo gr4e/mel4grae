@@ -442,7 +442,7 @@
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testi-bea.jpg" class="testimonial-img" alt="">
                 <h3>Kevin &amp; Bea</h3>
-                <h4>Couple's Best Friend</h4>
+                <h4>Couple's Friend</h4>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>It is with great honor, pride, and excitement that we welcome you into the married life. It will not always be sunshines and butterflies, but with you together and God at the center of your relationship, you will be able to make it through everything. Don't forget your vows and live with no regrets. Congratulations to your wedding! 🩷</span>
@@ -451,6 +451,32 @@
               </div>
             </div><!-- End testimonial item -->
 
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-kervimel.jpg" class="testimonial-img" alt="">
+                <h3>Kervi &amp; Mel</h3>
+                <h4>Couple's Family &amp; Friend</h4>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Hi Lanie at Emmar! Finally! Gusto namin sabihin na sobrang saya namin para sa inyong dalawa. Sa tagal niyo ng nagsasama, na-witness namin ang kabutihan ng inyong puso at ang magandang halimbawa ng tunay na partnership. Sa pagpasok niyo sa bagong kabanata ng buhay niyo, panatilihin niyo ang suporta niyo sa isa’t isa, pagpapakumbaba, at i-cherish ang bawat sandali. Cheers to this new chapter of your lives! Sa tawanan, inuman, at sa isang panghabang-buhay na pagmamahalan! Love you both!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testi-kervimel.jpg" class="testimonial-img" alt="">
+                <h3>Reana</h3>
+                <h4>Couple's Friend</h4>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>To Grae and Lanie, Congratulations! I'm so happy for both of you, I've witnessed your beautiful relationship full of love, respect and understanding. Thank you so much for the friendship and wisdom you've shared with me. As you embark on this new journey as husband and wife, may it be full of happiness and blessings. Always remember that I am here for both you. 💓</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
 
 
           </div>
