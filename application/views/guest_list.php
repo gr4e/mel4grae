@@ -6,27 +6,11 @@
     <title>Guest Lists</title>
 </head>
 <body>
-<pre>
-<?php print_r($records); ?>
-</pre>
-<h2>Guest List</h2>
 
-<table>
-    <thead>
-        <tr>
-            <th>Name &amp; contact</th>
-            <th>Message</th>
-        </tr>
-    </thead>
-    <tbody>
-        <?php 
-            for ($i=0; $i < $records; $i++) { 
-                echo "<tr><td>".$records[$i]->name."</td></tr>";
-            }
-        
-        ?>
-    </tbody>    
-</table>
+<h2>Guest List</h2>
+<pre>
+<?php print_r($bwisita); ?>
+</pre>
 
 </body>
 </html>

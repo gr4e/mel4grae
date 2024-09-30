@@ -12,10 +12,9 @@ class Visitors_model extends CI_Model {
     }
 
 
-    public function get_all_records() {
-        $this->db->select('*'); 
+    public function get_all_visitors() {
         $query = $this->db->get('visitors'); 
-        return $query->result(); 
+        return $query->result();
     }
 
 }
