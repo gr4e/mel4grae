@@ -688,7 +688,7 @@
                 <i class="bi bi-alarm flex-shrink-0"></i>
                 <div>
                   <h3>Date &amp; Time</h3>
-                  <p>Oct. 12, 2024 -- 1:30PM - 3:00 PM</p>
+                  <p>Oct. 12, 2024 -- 1:30 PM - 3:00 PM</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -722,7 +722,7 @@
                 <i class="bi bi-alarm flex-shrink-0"></i>
                 <div>
                   <h3>Date &amp; Time</h3>
-                  <p>Oct. 12, 2024 -- 3:00 - 6:00 PM</p>
+                  <p>Oct. 12, 2024 -- 3:00 PM - 6:00 PM</p>
                 </div>
               </div><!-- End Info Item -->
 
