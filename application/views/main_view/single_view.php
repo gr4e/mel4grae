@@ -102,18 +102,18 @@
       </div><!-- End Section Title -->
         <div class="row gy-5">
 
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-up">
               <h5 style="text-align: center;">Best Man</h5>
               <h3 style="text-align: center;"> Kervi B. Pascual</h3>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-up">
               <h5 style="text-align: center;">Maid of Honor</h5>
               <h3 style="text-align: center;"> Mariel F. Valentin</h3>
             </div>
 
 
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up">
               <h4 style="text-align: center;">Groomsmen</h4>
               <hr style="margin: 10px auto;" />        
               <h5 style="text-align: center;">Kevin Ray Bautista</h5>     
@@ -125,7 +125,7 @@
               
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up">
               <h4 style="text-align: center;">Bridesmaid</h4>          
               <hr style="margin: 10px auto;" /> 
               <h5 style="text-align: center;">Gie Buenaventura</h5> 
@@ -136,31 +136,32 @@
               <h5 style="text-align: center;">Marionne Buenaventura</h5>
             </div>
        
-            <div class="col-md-6" style="margin: 2vh auto;">
-              <hr /> 
+            <div data-aos="fade-up">
+              <div class="col-md-6" style="margin: 2vh auto;">
+                <hr /> 
+              </div>
+
+              <div class="col-lg-12" style="margin: 0;">
+                <h5 style="text-align: center;">Ring Bearer</h5>          
+                <h4 style="text-align: center;">Ethan Zane Dollano</h4> 
+              </div>
+
+              <div class="col-lg-12">
+                <h5 style="text-align: center;">Bible Bearer</h5>          
+                <h4 style="text-align: center;">James Estor</h4> 
+              </div>
+
+              <div class="col-lg-12">
+                <h5 style="text-align: center;">Flower Girl</h5>          
+                <h4 style="text-align: center;">Justine Anastasia Villaroman</h4> 
+              </div>
+
+
+              <div class="col-lg-12">
+                <h5 style="text-align: center;">Flower Girl</h5>          
+                <h4 style="text-align: center;">Josette Elianna Buenaventura</h4> 
+              </div>
             </div>
-
-            <div class="col-lg-12" style="margin: 0;">
-              <h5 style="text-align: center;">Ring Bearer</h5>          
-              <h4 style="text-align: center;">Ethan Zane Dollano</h4> 
-            </div>
-
-            <div class="col-lg-12">
-              <h5 style="text-align: center;">Bible Bearer</h5>          
-              <h4 style="text-align: center;">James Estor</h4> 
-            </div>
-
-            <div class="col-lg-12">
-              <h5 style="text-align: center;">Flower Girl</h5>          
-              <h4 style="text-align: center;">Justine Anastasia Villaroman</h4> 
-            </div>
-
-
-            <div class="col-lg-12">
-              <h5 style="text-align: center;">Flower Girl</h5>          
-              <h4 style="text-align: center;">Josette Elianna Buenaventura</h4> 
-            </div>
-
 
             
         </div>
