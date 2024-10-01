@@ -141,17 +141,17 @@
                 <hr /> 
               </div>
 
-              <div class="col-lg-12" style="margin: 0;">
+              <div class="col-lg-12" style="margin: 0 0 3vh 0;">
                 <h5 style="text-align: center;">Ring Bearer</h5>          
                 <h4 style="text-align: center;">Ethan Zane Dollano</h4> 
               </div>
 
-              <div class="col-lg-12">
+              <div class="col-lg-12" style="margin: 0 0 3vh 0;">
                 <h5 style="text-align: center;">Bible Bearer</h5>          
                 <h4 style="text-align: center;">James Estor</h4> 
               </div>
 
-              <div class="col-lg-12">
+              <div class="col-lg-12" style="margin: 0 0 3vh 0;">
                 <h5 style="text-align: center;">Flower Girl</h5>          
                 <h4 style="text-align: center;">Justine Anastasia Villaroman</h4> 
               </div>
