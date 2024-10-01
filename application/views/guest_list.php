@@ -19,10 +19,10 @@
             background-color: #f2f2f2; /* Light gray background for headers */
         }
         .col-20 {
-            width: 20%; /* Set width for the first column */
+            width: 30%; /* Set width for the first column */
         }
         .col-80 {
-            width: 80%; /* Set width for the second column */
+            width: 20%; /* Set width for the second column */
         }
     </style>
 </head>
@@ -39,14 +39,14 @@
 <table >
     <thead>
         <tr>
-            <th>Name &amp; contact</th>
-            <th>Message</th>
+            <th>Name</th>
+            <th>Contact</th>
         </tr>
     </thead>
     <tbody>
         <?php 
             foreach ($bwisita as $v) {
-                echo "<tr><td>".$v->name. " - ".$v->contact."</td><td>".$v->message."</td></tr>";
+                echo "<tr><td>".$v->name."</td><td>".$v->contact."</td></tr>";
             }
         ?>
     </tbody>    
