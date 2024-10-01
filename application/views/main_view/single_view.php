@@ -610,7 +610,7 @@
                 <img src="assets/img/team/gp-romeo.png" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h6>Romeo Budollo</h6>
+                <h6>Romeo Bodollo</h6>
               </div>
             </div>
           </div><!-- End Team Member -->
