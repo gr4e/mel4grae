@@ -165,8 +165,12 @@
                 <h5 style="text-align: center;">Flower Girl</h5>          
                 <h4 style="text-align: center;">Josette Elianna Buenaventura</h4> 
               </div>
-            </div>
 
+              <div class="col-lg-12">
+                <h5 style="text-align: center;">Flower Girl</h5>          
+                <h4 style="text-align: center;">Lendiwe Buenaventura</h4> 
+              </div>
+            </div>
             
         </div>
       </div>
