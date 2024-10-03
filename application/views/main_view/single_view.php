@@ -131,7 +131,7 @@
               <h5 style="text-align: center;">Gie Buenaventura</h5> 
               <h5 style="text-align: center;">Leah Cabreara</h5> 
               <h5 style="text-align: center;">Cherrie Barranco</h5> 
-              <h5 style="text-align: center;">Trixie Diane Bautista</h5>
+              <h5 style="text-align: center;">Monette Saludes</h5>
               <h5 style="text-align: center;">Justine Mangayabas</h5>
               <h5 style="text-align: center;">Marionne Buenaventura</h5>
             </div>
