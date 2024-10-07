@@ -56,6 +56,7 @@
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#godparents">Godparents</a></li>
           <li><a href="#rsvp">RSVP</a></li>
+          <li><a href="#gift_note">Note</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -750,6 +751,43 @@
       </div>
 
     </section><!-- /Contact Section -->
+
+
+<section id="gift_note" class="team section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2 style="background: url(<?= base_url('assets/img/section-title-love-notes.png'); ?>) no-repeat center;">Note on Gifts</h2>
+
+    <div class="note-block">
+      <h5>Most of our needs we've already got,</h5>
+      <h5>and in our home we can't fit a lot.</h5>
+      <h5>Though if you insist on blessing our married life,</h5>
+      <h5>some funds would definitely benefit us</h5>
+      <h5>as husband and wife.</h5>
+    </div>
+    
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-4 qr-con">
+      <div class="col-sm-4">
+        <img src="assets/img/gcash.png" alt="" class="qr-img">
+      </div>
+    </div>
+
+    <div class="row gy-4 qr-con">
+      <div class="col-sm-4 gcash-dets">
+       <p>Ofcourse, the funds will be credited directly to the wife!</p>
+       <p>Gcash: 09173109619</p>
+       <p>Melanie Inocencio</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
 
   </main>
 

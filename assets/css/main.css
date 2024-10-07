@@ -1778,3 +1778,36 @@ section,
 .motif-block h3 {
   font-weight: 700;
 }
+
+
+.note-block {
+  margin: 2vh 0 0 0;
+}
+
+.note-block h5 {
+  margin: 2vh 0 0 0;
+  text-align: center;
+  font-style: italic;
+}
+
+.qr-img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.qr-con {
+  display: flex;
+  justify-content: center;
+}
+
+.gcash-dets p {
+  text-align: center;
+  line-height: 1em;
+  margin: 1vh;
+}
+
+.gcash-dets p:first-child {
+  margin-top: 20px;
+}
